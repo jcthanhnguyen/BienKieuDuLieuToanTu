@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="ex1()">Bài 1</button>
+    <button onclick="ex2()">Bài 2</button>
+    <button onclick="ex3()">Bài 3</button>
+    <script>
+        // bài 1
+        function ex1() {
+            let i = 10;
+            let f = 20.5;
+            let b = true;
+            let s = "Hà Nội"
+            document.write('i = ' + i);
+            document.write('</br>');
+            document.write('f = ' + f);
+            document.write('</br>');
+            document.write('b = ' + b);
+            document.write('</br>');
+            document.write('s = ' + s);
+            document.write('</br>');
+        }
+
+        //bài 2
+        function ex2() {
+            let width = 20;
+            let height = 10;
+            let area = width * height;
+            document.write('area = ' + area);
+            document.write('</br>');
+        }
+
+        // bài 3
+        function ex3() {
+            let a = prompt('Enter a: ');
+            let b = prompt('Enter b: ');
+            if (a % b == 0) alert('a là bội của b');
+            else alert('a không  phải bội của b');
+        }
+    </script>
+</body>
+
+</html>
